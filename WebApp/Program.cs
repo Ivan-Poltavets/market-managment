@@ -16,6 +16,7 @@ builder.Services.AddTransient<IView, View>();
 builder.Services.AddTransient<IAddCategory, AddCategoryUseCase>();
 builder.Services.AddTransient<IEditCategory, EditCategory>();
 builder.Services.AddTransient<IGetCategoryById, GetCategoryById>();
+builder.Services.AddTransient<IDeleteCategory, DeleteCategory>();
 
 var app = builder.Build();
 

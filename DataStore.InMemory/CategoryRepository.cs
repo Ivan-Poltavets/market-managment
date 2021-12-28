@@ -10,15 +10,22 @@ namespace DataStore.InMemory
         {
             categories = new List<Category>()
             {
-                new Category { CategoryId = 1, Name = "Beverage", Description = "Beverage" },
-                new Category { CategoryId = 2, Name = "Backery", Description = "Backery" }
+                new Category { CategoryId = 1, Name = "Fruits", Description = "Fruits" },
+                new Category { CategoryId = 2, Name = "Vegetables", Description = "Vegetables" }
             };
         }
         public void AddCategory(Category category)
         {
             if(categories.Any(x=>x.Name.Equals(category.Name, StringComparison.OrdinalIgnoreCase)))return;
-            var maxId = categories.Max(x => x.CategoryId);
-            category.CategoryId = maxId + 1;
+            if (categories != null && categories.Count > 0)
+            {
+                var maxId = categories.Max(x => x.CategoryId);
+                category.CategoryId = maxId + 1;
+            }
+            else
+            {
+                category.CategoryId = 1;
+            }
             categories.Add(category);
         }
         public void UpdateCategory(Category category)
@@ -38,6 +45,10 @@ namespace DataStore.InMemory
         public Category GetCategoryById(int categoryId)
         {
             return categories?.FirstOrDefault(x => x.CategoryId == categoryId);
+        }
+        public void DeleteCategory(int categoryId)
+        {
+            categories?.Remove(GetCategoryById(categoryId));
         }
     }
 }

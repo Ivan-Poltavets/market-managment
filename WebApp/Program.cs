@@ -12,11 +12,14 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddScoped<ICategoryRepository,CategoryRepository>();
-builder.Services.AddTransient<IView, View>();
+builder.Services.AddScoped<IProductRepository,ProductRepository>();
+
+builder.Services.AddTransient<IViewCategoryUseCase, ViewCategoryUseCase>();
 builder.Services.AddTransient<IAddCategory, AddCategoryUseCase>();
 builder.Services.AddTransient<IEditCategory, EditCategory>();
 builder.Services.AddTransient<IGetCategoryById, GetCategoryById>();
 builder.Services.AddTransient<IDeleteCategory, DeleteCategory>();
+builder.Services.AddTransient<IViewProductsUseCase, ViewProductsUseCase>();
 
 var app = builder.Build();
 

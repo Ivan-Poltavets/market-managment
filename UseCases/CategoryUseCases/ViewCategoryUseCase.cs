@@ -3,10 +3,10 @@ using UseCases.DataStore;
 
 namespace UseCases
 {
-    public class View : IView
+    public class ViewCategoryUseCase : IViewCategoryUseCase
     {
         private readonly ICategoryRepository categoryRepository;
-        public View(ICategoryRepository categoryRepository)
+        public ViewCategoryUseCase(ICategoryRepository categoryRepository)
         {
             this.categoryRepository = categoryRepository;
         }

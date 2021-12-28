@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5cee0127-998f-4700-a1ce-a1bd1983a33a": {
+      "ProjectGuid": "5cee0127-998f-4700-a1ce-a1bd1983a33a",
+      "DisplayName": "WebApp",
+      "ColorIndex": 0
+    },
+    "f0c1428a-2888-4f83-bbce-04f474b731d0": {
+      "ProjectGuid": "f0c1428a-2888-4f83-bbce-04f474b731d0",
+      "DisplayName": "UseCases",
+      "ColorIndex": 1
+    },
+    "2776f449-34c1-4cdd-a020-3e0822eb2f0a": {
+      "ProjectGuid": "2776f449-34c1-4cdd-a020-3e0822eb2f0a",
+      "DisplayName": "Core",
+      "ColorIndex": 2
+    },
+    "b7fbba76-4af1-4fc6-abf2-5d22f0d93324": {
+      "ProjectGuid": "b7fbba76-4af1-4fc6-abf2-5d22f0d93324",
+      "DisplayName": "DataStore.InMemory",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

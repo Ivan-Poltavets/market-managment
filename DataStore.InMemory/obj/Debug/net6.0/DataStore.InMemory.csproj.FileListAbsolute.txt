@@ -1,0 +1,17 @@
+D:\C# app\supermarket\SupermarketManagement\DataStore.InMemory\obj\Debug\net6.0\DataStore.InMemory.csproj.AssemblyReference.cache
+D:\C# app\supermarket\SupermarketManagement\DataStore.InMemory\obj\Debug\net6.0\DataStore.InMemory.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# app\supermarket\SupermarketManagement\DataStore.InMemory\obj\Debug\net6.0\DataStore.InMemory.AssemblyInfoInputs.cache
+D:\C# app\supermarket\SupermarketManagement\DataStore.InMemory\obj\Debug\net6.0\DataStore.InMemory.AssemblyInfo.cs
+D:\C# app\supermarket\SupermarketManagement\DataStore.InMemory\obj\Debug\net6.0\DataStore.InMemory.csproj.CoreCompileInputs.cache
+D:\C# app\supermarket\SupermarketManagement\DataStore.InMemory\bin\Debug\net6.0\DataStore.InMemory.deps.json
+D:\C# app\supermarket\SupermarketManagement\DataStore.InMemory\bin\Debug\net6.0\DataStore.InMemory.dll
+D:\C# app\supermarket\SupermarketManagement\DataStore.InMemory\bin\Debug\net6.0\ref\DataStore.InMemory.dll
+D:\C# app\supermarket\SupermarketManagement\DataStore.InMemory\bin\Debug\net6.0\DataStore.InMemory.pdb
+D:\C# app\supermarket\SupermarketManagement\DataStore.InMemory\bin\Debug\net6.0\Core.dll
+D:\C# app\supermarket\SupermarketManagement\DataStore.InMemory\bin\Debug\net6.0\UseCases.dll
+D:\C# app\supermarket\SupermarketManagement\DataStore.InMemory\bin\Debug\net6.0\UseCases.pdb
+D:\C# app\supermarket\SupermarketManagement\DataStore.InMemory\bin\Debug\net6.0\Core.pdb
+D:\C# app\supermarket\SupermarketManagement\DataStore.InMemory\obj\Debug\net6.0\DataStore.InMemory.csproj.CopyComplete
+D:\C# app\supermarket\SupermarketManagement\DataStore.InMemory\obj\Debug\net6.0\DataStore.InMemory.dll
+D:\C# app\supermarket\SupermarketManagement\DataStore.InMemory\obj\Debug\net6.0\ref\DataStore.InMemory.dll
+D:\C# app\supermarket\SupermarketManagement\DataStore.InMemory\obj\Debug\net6.0\DataStore.InMemory.pdb

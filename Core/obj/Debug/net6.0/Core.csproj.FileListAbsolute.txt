@@ -1,0 +1,12 @@
+D:\C# app\supermarket\SupermarketManagement\Core\bin\Debug\net6.0\Core.deps.json
+D:\C# app\supermarket\SupermarketManagement\Core\bin\Debug\net6.0\Core.dll
+D:\C# app\supermarket\SupermarketManagement\Core\bin\Debug\net6.0\ref\Core.dll
+D:\C# app\supermarket\SupermarketManagement\Core\bin\Debug\net6.0\Core.pdb
+D:\C# app\supermarket\SupermarketManagement\Core\obj\Debug\net6.0\Core.csproj.AssemblyReference.cache
+D:\C# app\supermarket\SupermarketManagement\Core\obj\Debug\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# app\supermarket\SupermarketManagement\Core\obj\Debug\net6.0\Core.AssemblyInfoInputs.cache
+D:\C# app\supermarket\SupermarketManagement\Core\obj\Debug\net6.0\Core.AssemblyInfo.cs
+D:\C# app\supermarket\SupermarketManagement\Core\obj\Debug\net6.0\Core.csproj.CoreCompileInputs.cache
+D:\C# app\supermarket\SupermarketManagement\Core\obj\Debug\net6.0\Core.dll
+D:\C# app\supermarket\SupermarketManagement\Core\obj\Debug\net6.0\ref\Core.dll
+D:\C# app\supermarket\SupermarketManagement\Core\obj\Debug\net6.0\Core.pdb

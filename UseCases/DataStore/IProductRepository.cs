@@ -10,5 +10,6 @@ namespace UseCases.DataStore
     public interface IProductRepository
     {
         IEnumerable<Product> GetProducts();
+        void AddProduct(Product product);
     }
 }

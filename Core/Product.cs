@@ -14,7 +14,6 @@ namespace Core
         public int CategoryId { get; set; }
         [Required]
         public string Name { get; set; }
-        public string Description { get; set; }
         [Required]
         public int Quantity { get; set; }
         [Required]

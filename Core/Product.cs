@@ -11,7 +11,7 @@ namespace Core
     {
         public int ProductId { get; set; }
         [Required]
-        public int CategoryId { get; set; }
+        public int? CategoryId { get; set; }
         [Required]
         public string Name { get; set; }
         [Required]

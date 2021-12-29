@@ -19,8 +19,12 @@ builder.Services.AddTransient<IAddCategory, AddCategoryUseCase>();
 builder.Services.AddTransient<IEditCategory, EditCategory>();
 builder.Services.AddTransient<IGetCategoryById, GetCategoryById>();
 builder.Services.AddTransient<IDeleteCategory, DeleteCategory>();
+
 builder.Services.AddTransient<IViewProductsUseCase, ViewProductsUseCase>();
 builder.Services.AddTransient<IAddProductUseCase, AddProductUseCase>();
+builder.Services.AddTransient<IEditProductUseCase, EditProductUseCase>();
+builder.Services.AddTransient<IGetProductById, GetProductById>();
+builder.Services.AddTransient<IDeleteProduct, DeleteProduct>();
 
 var app = builder.Build();
 

@@ -41,5 +41,25 @@ namespace DataStore.InMemory
         {
             return products;
         }
+
+        public void UpdateProduct(Product product)
+        {
+            var productUpdate = GetProductById(product.ProductId);
+            if (productUpdate != null)
+            {
+                productUpdate.CategoryId = product.CategoryId;
+                productUpdate.Name = product.Name;
+                productUpdate.Quantity = product.Quantity;
+                productUpdate.Price = product.Price;
+            }
+        }
+        public Product GetProductById(int productId)
+        {
+            return products.FirstOrDefault(x=> x.ProductId == productId);
+        }
+        public void DeleteProduct(int productId)
+        {
+            products?.Remove(GetProductById(productId));
+        }
     }
 }

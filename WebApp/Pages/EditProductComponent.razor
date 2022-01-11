@@ -1,11 +1,10 @@
 ﻿@page "/editproduct/{productId}"
-@using UseCases
 
 @inject NavigationManager NavigationManager
 @inject IViewCategoryUseCase ViewCategoryUseCase
 @inject IGetProductById GetProduct
 @inject IEditProductUseCase EditProductUseCase
-<h3>Eidt Category</h3>
+<h3>Edit Category</h3>
 @if (product != null)
 {
     <EditForm Model="product" class="form-inlune" OnValidSubmit="OnValidSubmit">

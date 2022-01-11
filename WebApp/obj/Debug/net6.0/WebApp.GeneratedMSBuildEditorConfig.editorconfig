@@ -19,12 +19,24 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/C\# app/supermarket/SupermarketManagement/WebApp/Controls/SelectProductForSellingComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcU2VsZWN0UHJvZHVjdEZvclNlbGxpbmdDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# app/supermarket/SupermarketManagement/WebApp/Controls/SellProductComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcU2VsbFByb2R1Y3RDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/C\# app/supermarket/SupermarketManagement/WebApp/Pages/AddCategoryComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQ2F0ZWdvcnlDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C\# app/supermarket/SupermarketManagement/WebApp/Pages/AddProductComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkUHJvZHVjdENvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\# app/supermarket/SupermarketManagement/WebApp/Pages/CashiersConsoleComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FzaGllcnNDb25zb2xlQ29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C\# app/supermarket/SupermarketManagement/WebApp/Pages/CategoriesComponent.razor]
